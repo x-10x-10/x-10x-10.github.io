@@ -7,25 +7,10 @@
     p{
         color: blanchedalmond;
     }
-    h4,h5{
+    h4{
         color: floralwhite;
         font-family: fantasy;
     }
 .b{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    align-items: flex-start;
-}
-footer{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: flex-start;
-}
-.row{
-    border-bottom: 1rem solid whitesmoke;  
-}
-.container{
-    margin-top: 2rem;
+
 }

@@ -1,0 +1,112 @@
+body{
+    background-image: url(img/fon.png);
+}
+.move-top {
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    background-color:black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: yellow;
+    font-weight: 900;
+    box-shadow: 0 0 10px yellow;
+}
+h1,h2,h3,h4,h5,h6,p,a,.my-modal-footer,.my-modal-header{
+    color: yellow;
+   
+}
+footer{
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+.my-anim-bottom {
+    transform: translateY(80%);
+    opacity: 0;
+    transition: 1s .3s;
+}
+.activ-anim-bottom {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.film-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+   
+}
+
+.list-item {
+    flex-basis: 200px;
+    flex-grow: 1;
+    max-width: 250px;
+    transition: all 1s;
+}
+
+.about {
+    margin: 20px 0;
+    border: 1px solid yellow;
+}
+
+.non-active {
+    z-index: 0;
+    box-shadow: none;
+
+}
+
+.poster {
+    height: 200px;
+    overflow: hidden;
+}
+
+.poster>img {
+    height: 100%;
+    width: auto;
+}
+
+.active {
+    position: absolute;
+    z-index: 5;
+}
+
+.rel {
+    position: relative;
+}
+.my-modal{
+    background-image: url(img/fon.png);
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    max-height: 30%;
+    
+}
+.my-modal-header, .my-modal-footer{
+    background-image: url(img/fon.png);
+    padding: 0.5rem 0;
+    font-size: 2rem;
+}
+.card-body{
+    background-image: url(img/fon.png);
+}
+.card{
+    border: 2px solid yellow;
+}
+.v{
+    background-color: black;
+    opacity: 0.7;
+}

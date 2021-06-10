@@ -1,0 +1,84 @@
+body{
+    background-image: url(img/fon.png);
+    scroll-behavior: smooth;
+}
+.move-top {
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    background-color:black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: yellow;
+    font-weight: 900;
+    box-shadow: 0 0 10px yellow;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: yellow;
+}
+.my-anim-bottom {
+    transform: translateY(80%);
+    opacity: 0;
+    transition: 1s .3s;
+}
+.activ-anim-bottom {
+    transform: translateY(0);
+    opacity: 1;
+}
+.move-top {
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    background-color:black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: yellow;
+    font-weight: 900;
+    box-shadow: 0 0 10px yellow;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: black;
+    opacity: 0.7;
+}
+.he{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.v{
+    background-color: black;
+    opacity: 0.7;
+}
+.c{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.color{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.inf{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.use{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.col-md-11{
+    border: 2px solid yellow;
+    padding-top:8px ;
+    padding-bottom: 8px;
+}
+.a,.b,.cc,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n{
+border: 2px solid yellow;
+}
